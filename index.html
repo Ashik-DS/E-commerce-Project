@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Ecommerce project</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <meta name="description" content="this is an Ecommerce website or project "> 
+
+        <!-- for SEO -->
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar start here -->
+
+           <nav>
+            <ul class="nav-upper flex-space-around">
+                <li class="nav-list">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-list">
+                    <a href="register.html" class="nav-link">Register</a>
+                </li>
+                <li class="nav-list">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-list">
+                    <a href="logout.html" class="nav-link">Logout</a>
+                </li>
+                <li class="nav-list">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-list">
+                    <a href="profile.html" class="nav-link ">
+                        <img class="profile-img" src="./images/Ashik .jpg" alt="ashik profile icon">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav-lower flex-space-around">
+                <li class="nav-list"><a class="nav-link" href="index.html">
+                Ashik Express
+                </a>
+                </li>
+                <li class="nav-list"><a class="nav-link" href="index.html">
+                <span><i class="fa-solid fa-cart-shopping"></i>Card 2 product-$124.40</span>
+                </a>
+                </li>
+            </ul>
+
+           </nav>
+
+            <!-- place navbar end here -->
+            
+        </header>
+
+        <main>
+
+
+            <!-- Bannar part start here -->
+
+            <div class="banner">
+                <div class="banner-text">
+                    <marquee behavior="" direction="">50% seles going on</marquee>
+                </div>
+
+                <div class="banner-card flex-space-around">
+                    <div class="banner-item">
+                        <span class="card-icon"><i class="fa-solid fa-truck-fast"></i></span>
+                        <h3>Shipping within 7 days</h3>
+                    </div>
+                    <div class="banner-item">
+                        <span class="card-icon"><i class="fa-solid fa-comments"></i></span>
+                        <h3>Support 24/7</h3>
+                    </div>
+                    <div class="banner-item">
+                        <span class="card-icon"><i class="fa-regular fa-credit-card"></i></span>
+                        <h3>Safe Payment</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bannar part End here -->
+
+            <!-- sidebar part start here  -->
+
+            <section class="sidebar flex-space-around mt-5">
+                <div class="sidebar-left">
+                    <div class="category">
+                       <ul><h2>Categories</h2>
+                    <li class="list-item">
+                        <label for="phone"></label>
+                        <input type="checkbox" name="phone" id="phone">Phone
+                    </li>
+                    <li class="list-item">
+                        <label for="phone"></label>
+                        <input type="checkbox" name="phone" id="phone">Tablets
+                    </li>
+                    <li class="list-item">
+                        <label for="phone"></label>
+                        <input type="checkbox" name="phone" id="phone">Television
+                    </li>
+                    <li class="list-item">
+                        <label for="phone"></label>
+                        <input type="checkbox" name="phone" id="phone">Computer
+                    </li>
+                    <li class="list-item">
+                        <label for="phone"></label>
+                        <input type="checkbox" name="phone" id="phone">Headphones
+                    </li>
+                </ul>
+                    </div>
+
+                    <div class="price">
+                        <ul><h2>Price Range</h2>
+                        <li class="list-item">
+                            <label for="price"></label>
+                            <input type="radio" name="price" id="price">$0-$20
+                        </li>
+                        <li class="list-item">
+                            <label for="price"></label>
+                            <input type="radio" name="price" id="price">$21-$50
+                        </li>
+                        <li class="list-item">
+                            <label for="price"></label>
+                            <input type="radio" name="price" id="price">$51-$100
+                        </li>
+                        <li class="list-item">
+                            <label for="price"></label>
+                            <input type="radio" name="price" id="price">$101-$500
+                        </li>
+                        <li class="list-item">
+                            <label for="price"></label>
+                            <input type="radio" name="price" id="price">$501+
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="shiping">
+                        <ul><h2>Shipping Options</h2>
+                        <li class="list-item">
+                            <label for="service"></label>
+                            <input type="radio" name="service" id="service">Free
+                        </li>
+                        <li class="list-item">
+                            <label for="service"></label>
+                            <input type="radio" name="service" id="service">Paid
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sidebar-right">
+                    <div class="sidebar-right-head flex-space-around ">
+                        <div class="sort p-5 ">
+                            <label for="sort">Sort By:</label>
+                            <select class="sort-select" name="sort" id="sort">
+                                <option value="first">Most rated first</option>
+                                <option value="first">Most sold first</option>
+                                <option value="first">Most cheapest first </option>
+                                <option value="first">Most Newset first</option>
+                                <option value="first">Biggest discount first</option>
+                            </select>
+                        </div>
+                        <div class="search p-5">
+                            <label for="search"></label>
+                            <input class="search-input" type="text" placeholder="secarh yout product ">
+                            <button class="search src-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="card-section flex-space-around mb-5">
+                        
+                            <div class="card card-item">
+                                <img class="card img" src="./images/product1.png" class="card-img-top" alt="card-img-top">
+                                <div class="card-body">
+                                  <h4 class="card-title">4 Headphone</h4>
+                                 <div class="color-div">
+                                    <div class="card-green"></div>
+                                    <div class="card-black"></div>
+                                    <div class="card-red"></div>
+                                 </div>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi...<a href="#">Learn More</a></p>
+                                  <p class="card-text"><h5>$225.99</h5></p>
+                                  <p class="card-text"><h5>Rating: 4.5/5</h5></p>
+                                  <button class="card-btn">ADD TO CART</button>
+                                </div>
+                              </div>
+
+                            <div class="card card-item">
+                                <img class="card img" src="./images/product2.png" class="card-img-top" alt="card-img-top">
+                                <div class="card-body">
+                                  <h4 class="card-title">Apple smart watch</h4>
+                                 <div class="color-div">
+                                    <div class="card-green"></div>
+                                    <div class="card-black"></div>
+                                    <div class="card-red"></div>
+                                 </div>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi...<a href="#">Learn More</a></p>
+                                  <p class="card-text"><h5>$225.99</h5></p>
+                                  <p class="card-text"><h5>Rating: 4.5/5</h5></p>
+                                  <button class="card-btn">ADD TO CART</button>
+                                </div>
+                              </div>
+
+                            <div class="card card-item">
+                                <img class="card img" src="./images/product3.jpg" class="card-img-top" alt="card-img-top">
+                                <div class="card-body">
+                                  <h4 class="card-title">Apple smart glass</h4>
+                                 <div class="color-div">
+                                    <div class="card-green"></div>
+                                    <div class="card-black"></div>
+                                    <div class="card-red"></div>
+                                 </div>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi...<a href="#">Learn More</a></p>
+                                  <p class="card-text"><h5>$225.99</h5></p>
+                                  <p class="card-text"><h5>Rating: 4.5/5</h5></p>
+                                  <button class="card-btn">ADD TO CART</button>
+                                </div>
+                              </div>
+                        
+                    </div>
+                    <div class="card-section flex-space-around">
+                        
+                            <div class="card card-item">
+                                <img class="card img" src="./images/product4.jpg" class="card-img-top" alt="card-img-top">
+                                <div class="card-body">
+                                  <h4 class="card-title"> Smart shoes</h4>
+                                 <div class="color-div">
+                                    <div class="card-green"></div>
+                                    <div class="card-black"></div>
+                                    <div class="card-red"></div>
+                                 </div>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi...<a href="#">Learn More</a></p>
+                                  <p class="card-text"><h5>$225.99</h5></p>
+                                  <p class="card-text"><h5>Rating: 4.5/5</h5></p>
+                                  <button class="card-btn">ADD TO CART</button>
+                                </div>
+                              </div>
+
+                            <div class="card card-item ">
+                                <img class="card img" src="./images/product5.jpg" class="card-img-top" alt="card-img-top">
+                                <div class="card-body">
+                                  <h4 class="card-title">Smart glass watch </h4>
+                                 <div class="color-div">
+                                    <div class="card-green"></div>
+                                    <div class="card-black"></div>
+                                    <div class="card-red"></div>
+                                 </div>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi...<a href="#">Learn More</a></p>
+                                  <p class="card-text"><h5>$225.99</h5></p>
+                                  <p class="card-text"><h5>Rating: 4.5/5</h5></p>
+                                  <button class="card-btn">ADD TO CART</button>
+                                </div>
+                              </div>
+
+                            <div class="card card-item">
+                                <img class="card img" src="./images/product6.jpg" class="card-img-top" alt="card-img-top">
+                                <div class="card-body">
+                                  <h4 class="card-title">Smart Component</h4>
+                                 <div class="color-div">
+                                    <div class="card-green"></div>
+                                    <div class="card-black"></div>
+                                    <div class="card-red"></div>
+                                 </div>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi...<a href="#">Learn More</a></p>
+                                  <p class="card-text"><h5>$225.99</h5></p>
+                                  <p class="card-text"><h5>Rating: 4.5/5</h5></p>
+                                  <button class="card-btn">ADD TO CART</button>
+                                </div>
+                              </div>
+                        
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <!-- sidebar part end  here  -->
+
+            <section class="next-page mt-5 text-center">
+                <ul>
+                    <li><</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>...</li>
+                    <li>50</li>
+                    <li>></li>
+                </ul>
+            </section>
+
+
+        </main>
+        
+        
+        <footer class="footer flex-space-around mt-5 p-5">
+        
+            <!-- place footer here -->
+             <div class="footer-sub flex-space-around">
+                <p class="text-light mt-2 ">Subscribe to Newsletter:
+                </p>
+                <label for="Subscribe"></label>
+                <input class="p-2" type="email" name="Subscribe" id="Subscribe" placeholder="Input Your Email">
+                <div class="subscribes">subscribe</div>
+             </div>
+             <div class="footer-text">
+                <p class="text-light">© Copyright 2024 Ashik Express. All rights rserved</p>
+             </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
